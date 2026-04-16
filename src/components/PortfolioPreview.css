@@ -1,0 +1,188 @@
+.portfolio-preview {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #080808;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+/* ── Browser bar ── */
+.portfolio-preview__bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  background: #141414;
+  border-bottom: 1px solid #1e1e1e;
+  flex-shrink: 0;
+}
+.portfolio-preview__dots { display: flex; gap: 4px; }
+.portfolio-preview__dots span { width: 6px; height: 6px; border-radius: 50%; background: #333; }
+.portfolio-preview__dots span:first-child  { background: #ff5f57; }
+.portfolio-preview__dots span:nth-child(2) { background: #ffbd2e; }
+.portfolio-preview__dots span:last-child   { background: #28ca41; }
+.portfolio-preview__url {
+  flex: 1;
+  background: #1a1a1a;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 7px;
+  color: #555;
+}
+
+/* ── Viewport ── */
+.portfolio-preview__viewport {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.portfolio-preview__scroll {
+  padding: 8px;
+  animation: portfolioScroll 8s ease-in-out infinite alternate;
+}
+
+@keyframes portfolioScroll {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-55%); }
+}
+
+/* ── Hero / About ── */
+.portfolio-preview__hero {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #1a1a1a;
+}
+.portfolio-preview__avatar {
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  background: #1a1a1a;
+  border: 2px solid rgba(0,255,156,0.4);
+  box-shadow: 0 0 8px rgba(0,255,156,0.2);
+  flex-shrink: 0;
+}
+.portfolio-preview__hero-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.portfolio-preview__name {
+  width: 60%; height: 6px;
+  background: #e0e0e0; border-radius: 3px;
+}
+.portfolio-preview__role {
+  width: 45%; height: 4px;
+  background: rgba(0,255,156,0.5); border-radius: 2px;
+}
+.portfolio-preview__hero-btns { display: flex; gap: 4px; margin-top: 2px; }
+.portfolio-preview__btn-primary {
+  width: 30px; height: 7px;
+  background: #00ff9c; border-radius: 2px;
+  box-shadow: 0 0 5px rgba(0,255,156,0.4);
+}
+.portfolio-preview__btn-ghost {
+  width: 24px; height: 7px;
+  background: transparent;
+  border: 1px solid #333; border-radius: 2px;
+}
+
+/* ── Section label ── */
+.portfolio-preview__section-label {
+  width: 30%; height: 4px;
+  background: rgba(0,255,156,0.25);
+  border-radius: 2px;
+  margin-bottom: 6px;
+}
+
+/* ── Skills ── */
+.portfolio-preview__skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+.portfolio-preview__skill {
+  font-size: 6px;
+  font-weight: 600;
+  color: #00ff9c;
+  background: rgba(0,255,156,0.08);
+  border: 1px solid rgba(0,255,156,0.2);
+  padding: 2px 6px;
+  border-radius: 10px;
+  animation: fadeInUp 0.3s ease both;
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(3px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Projetos grid ── */
+.portfolio-preview__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin-bottom: 12px;
+}
+.portfolio-preview__project-card {
+  background: #111;
+  border: 1px solid #1e1e1e;
+  border-radius: 4px;
+  overflow: hidden;
+  animation: fadeInUp 0.4s ease both;
+}
+.portfolio-preview__project-img {
+  width: 100%; height: 28px;
+  background: linear-gradient(135deg, #1a1a2e, #0d0d1a);
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-preview__project-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(0,255,156,0.05), transparent);
+  animation: shimmer 2.5s ease-in-out infinite;
+  background-size: 200% 100%;
+}
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.portfolio-preview__project-title {
+  width: 75%; height: 4px;
+  background: #ccc; border-radius: 2px;
+  margin: 5px 5px 3px;
+}
+.portfolio-preview__project-tag {
+  width: 40%; height: 3px;
+  background: rgba(0,255,156,0.3); border-radius: 2px;
+  margin: 0 5px 5px;
+}
+
+/* ── Contato ── */
+.portfolio-preview__contact {
+  background: #0d1414;
+  border: 1px solid rgba(0,255,156,0.1);
+  border-radius: 5px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.portfolio-preview__contact-title {
+  width: 55%; height: 5px;
+  background: #ddd; border-radius: 2px;
+}
+.portfolio-preview__contact-btn {
+  width: 40px; height: 9px;
+  background: #00ff9c; border-radius: 3px;
+  box-shadow: 0 0 6px rgba(0,255,156,0.4);
+}

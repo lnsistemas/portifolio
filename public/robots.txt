@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Bloquear acesso a arquivos internos desnecessários
+Disallow: /assets/
+
+Sitemap: https://seudominio.com.br/sitemap.xml

@@ -1,0 +1,46 @@
+.project-page {
+  min-height: 100vh;
+  background-color: #0d0d0d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  padding: 40px 16px;
+}
+
+.project-page__content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.project-page__back {
+  background: none;
+  border: 1px solid rgba(0, 255, 156, 0.3);
+  color: #00ff9c;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-family: 'Inter', sans-serif;
+}
+
+.project-page__back:hover {
+  background: rgba(0, 255, 156, 0.08);
+}
+
+.project-page__title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+
+.project-page__msg {
+  font-size: 0.95rem;
+  color: #666666;
+}
