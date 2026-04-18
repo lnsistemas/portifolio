@@ -13,16 +13,16 @@ export default function Hero() {
         </div>
 
         <h1 className="hero__title">
-          Tecnologia simples
+          Seu negócio online
           <br />
-          <span className="hero__title-accent">que funciona</span>
+          <span className="hero__title-accent">em até 7 dias</span>,
           <br />
-          para você.
+          do zero.
         </h1>
 
         <p className="hero__subtitle">
-          Criação de sites, landing pages, catálogos digitais e bio links.
-          Soluções práticas e acessíveis para autônomos e pequenos negócios.
+          Crio sites que carregam rápido, catálogos digitais com botão de WhatsApp
+          por produto e páginas de bio link com a sua cara — tudo sem mensalidade.
         </p>
 
         <div className="hero__actions">

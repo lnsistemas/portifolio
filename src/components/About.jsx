@@ -17,13 +17,14 @@ export default function About() {
           <div className="divider" />
 
           <p className="about__text">
-            Olá! Sou <strong>Leandro Nardiello</strong>, desenvolvedor e profissional de tecnologia
-            com foco em soluções práticas para quem precisa de resultados rápidos sem complicar.
+            Olá! Sou <strong>Leandro Nardiello</strong>, desenvolvedor focado em colocar
+            pequenos negócios e autônomos no digital — sem enrolação, sem mensalidade e
+            sem precisar entender de tecnologia.
           </p>
           <p className="about__text">
-            Trabalho com criação de sites, landing pages, catálogos digitais e páginas de bio link.
-            Meu objetivo é entregar tecnologia de qualidade de forma acessível,
-            especialmente para autônomos e pequenos negócios que querem crescer online.
+            Entrego sites que carregam em menos de 3 segundos, catálogos onde o cliente
+            já fala direto pelo WhatsApp e páginas de bio link personalizadas.
+            Do briefing à publicação, cuido de tudo — você só precisa aprovar.
           </p>
 
           <a

@@ -14,7 +14,7 @@ const services = [
     ),
     title: 'Landing Page',
     price: 'R$ 247,00',
-    description: 'Página única focada em conversão, ideal para divulgar um produto, serviço ou capturar contatos.',
+    description: 'Página que carrega rápido, tem botão de WhatsApp e já aparece no Google. Pronta em até 5 dias.',
     detail: {
       heading: 'Página que converte e impressiona',
       body: `Uma landing page bem feita é a forma mais rápida e eficiente de ter presença online. Ideal para lançamentos, promoções ou qualquer ação que precise de uma página direta e objetiva.
@@ -40,7 +40,7 @@ Desenvolvida com foco em velocidade, visual moderno e adaptada para todos os dis
     ),
     title: 'Portfólio',
     price: 'R$ 397,00',
-    description: 'Site profissional para apresentar seus trabalhos, habilidades e experiências com elegância.',
+    description: 'Mostre seus projetos com visual profissional. Clientes e recrutadores veem seu trabalho em segundos.',
     detail: {
       heading: 'Seu cartão de visitas digital',
       body: `Um portfólio bem construído faz toda a diferença na hora de conquistar um cliente ou uma vaga. Apresente seus projetos, habilidades e trajetória de forma clara e com visual profissional.
@@ -68,7 +68,7 @@ Ideal para fotógrafos, designers, desenvolvedores, arquitetos e qualquer profis
     ),
     title: 'Catálogo de Produtos (Fixo)',
     price: 'R$ 597,00',
-    description: 'Catálogo digital estático para exibir seus produtos ou serviços com visual profissional e organizado.',
+    description: 'Seu cliente acessa pelo celular, vê foto, preço e já chama no WhatsApp — sem precisar de um app.',
     detail: {
       heading: 'Mostre seus produtos com profissionalismo',
       body: `Um catálogo digital moderno substitui com vantagem os PDFs e folders impressos. Seu cliente acessa pelo celular, vê fotos, descrições e já entra em contato direto com você.
@@ -95,7 +95,7 @@ Versão estática — sem painel de administração. As atualizações são feit
     ),
     title: 'Catálogo Gerenciável + Database',
     price: 'R$ 997,00',
-    description: 'Catálogo com painel de administração para você mesmo adicionar, editar e remover produtos.',
+    description: 'Você entra num painel e atualiza produtos, preços e fotos sozinho — sem chamar ninguém.',
     detail: {
       heading: 'Catálogo que você controla sozinho',
       body: `Tudo do catálogo fixo, mas com autonomia total. Você acessa um painel seguro e atualiza seus produtos quando quiser — sem precisar me chamar a cada mudança.
@@ -121,7 +121,7 @@ Ideal para lojas e negócios com produtos que mudam com frequência. Banco de da
     ),
     title: 'Sites Institucionais',
     price: 'A consultar',
-    description: 'Sites completos para empresas com múltiplas páginas, identidade visual e recursos sob medida.',
+    description: 'Várias páginas, identidade visual completa e formulário de contato. Orçamento sob medida.',
     detail: {
       heading: 'Solução completa para sua empresa',
       body: `Sites institucionais são projetos maiores, com múltiplas páginas, recursos específicos e identidade visual completa. Por isso, o valor é definido após um bate-papo para entender suas necessidades reais.
@@ -147,7 +147,7 @@ Entre em contato e conte o que precisa — vamos montar juntos a proposta ideal 
     ),
     title: 'Bio Link',
     price: 'R$ 97,00',
-    description: 'Página personalizada estilo Linktree com sua identidade visual para reunir todos os seus links.',
+    description: 'Um link só para colocar na bio do Instagram que leva para WhatsApp, portfólio, cardápio e mais.',
     detail: {
       heading: 'Todos os seus links em um só lugar',
       body: `Uma página simples e elegante com a sua cara — muito melhor que o Linktree padrão. Coloque seu nome, foto e links para WhatsApp, Instagram, portfólio, loja ou qualquer destino que precisar.

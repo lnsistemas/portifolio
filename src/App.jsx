@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import ForWhom from './components/ForWhom'
 import BioLink from './components/BioLink'
 import ProjectPage from './components/ProjectPage'
 import CatalogLanding from './pages/CatalogLanding'
@@ -19,6 +20,7 @@ function Portfolio() {
       <Navbar />
       <main>
         <Hero />
+        <ForWhom />
         <Services />
         <Projects />
         <About />

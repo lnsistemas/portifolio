@@ -5,6 +5,7 @@ import './Navbar.css'
 
 const navLinks = [
   { label: 'Início', href: '#hero' },
+  { label: 'Para quem é', href: '#for-whom' },
   { label: 'Serviços', href: '#services' },
   { label: 'Modelos de Projetos', href: '#projects' },
   { label: 'Sobre', href: '#about' },
