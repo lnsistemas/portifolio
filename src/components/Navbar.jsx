@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import logo from '../assets/logo.png'
+import { WA_URL } from '../utils/whatsapp'
 import './Navbar.css'
 
 const navLinks = [
@@ -45,7 +46,7 @@ export default function Navbar() {
             Bio Link
           </a>
           <a
-            href="https://wa.me/5514997815567"
+            href={WA_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary navbar__cta"

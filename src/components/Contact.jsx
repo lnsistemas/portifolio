@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { WA_URL } from '../utils/whatsapp'
 import './Contact.css'
 
 const MAX_NAME = 80
@@ -67,7 +68,7 @@ export default function Contact() {
           </p>
 
           <a
-            href="https://wa.me/5514997815567"
+            href={WA_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary contact__wa-btn"

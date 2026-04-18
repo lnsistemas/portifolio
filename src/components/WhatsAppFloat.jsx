@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { WA_URL } from '../utils/whatsapp'
 import './WhatsAppFloat.css'
 
 export default function WhatsAppFloat() {
@@ -31,7 +32,7 @@ export default function WhatsAppFloat() {
 
   return (
     <a
-      href="https://wa.me/5514997815567"
+      href={WA_URL}
       target="_blank"
       rel="noopener noreferrer"
       className="wa-float"

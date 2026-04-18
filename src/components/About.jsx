@@ -1,3 +1,4 @@
+import { WA_URL } from '../utils/whatsapp'
 import './About.css'
 
 const highlights = [
@@ -26,7 +27,7 @@ export default function About() {
           </p>
 
           <a
-            href="https://wa.me/5514997815567"
+            href={WA_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary about__btn"

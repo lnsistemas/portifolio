@@ -1,3 +1,4 @@
+import { WA_URL } from '../utils/whatsapp'
 import './Hero.css'
 
 export default function Hero() {
@@ -26,7 +27,7 @@ export default function Hero() {
 
         <div className="hero__actions">
           <a
-            href="https://wa.me/5514997815567"
+            href={WA_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary hero__btn-wa"
@@ -48,12 +49,12 @@ export default function Hero() {
           </div>
           <div className="hero__stat-divider" />
           <div className="hero__stat">
-            <span className="hero__stat-number">5</span>
+            <span className="hero__stat-number">1</span>
             <span className="hero__stat-label">Finalizados</span>
           </div>
           <div className="hero__stat-divider" />
           <div className="hero__stat">
-            <span className="hero__stat-number">2</span>
+            <span className="hero__stat-number">0</span>
             <span className="hero__stat-label">Em Andamento</span>
           </div>
           <div className="hero__stat-divider" />

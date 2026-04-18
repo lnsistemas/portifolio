@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import logo from '../assets/logo.png'
+import { WA_URL } from '../utils/whatsapp'
 import './Services.css'
 
 const services = [
@@ -297,7 +298,7 @@ export default function Services() {
         <div className="services__cta">
           <p className="services__cta-text">Não encontrou o que precisa?</p>
           <a
-            href="https://wa.me/5514997815567"
+            href={WA_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
